@@ -9,7 +9,8 @@ public class BoasVindas {
         Scanner leitor = new Scanner(System.in);
         
         System.out.print("Digite seu nome: ");
-        nome = leitor.nextLine();
+        nome = leitor.nextLine(); //pega todo o nome
+        //nome = leitor.next(); pega apenas o primeiro nome
 
         System.out.println("Boas Vindas " + nome);
         
