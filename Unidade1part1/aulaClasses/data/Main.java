@@ -1,4 +1,4 @@
-package Unidade1part1.aulaClasses;
+package Unidade1part1.aulaClasses.data;
 
 public class Main {
     public static void main (String[] args){
