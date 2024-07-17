@@ -1,4 +1,4 @@
-package Unidade1partUm.aulaClasses.triangulo;
+package Unidade1part1.aulaClasses.triangulo;
 
 public class DemoTtriangulo {
     public static void main(String[] args){

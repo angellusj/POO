@@ -1,4 +1,4 @@
-package Unidade1partUm.aulaClasses.faculdade;
+package Unidade1part1.aulaClasses.faculdade;
 
 public class RegistroAcademico {
     String nome, matricula;

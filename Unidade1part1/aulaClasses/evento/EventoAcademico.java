@@ -1,4 +1,4 @@
-package Unidade1partUm.aulaClasses.evento;
+package Unidade1part1.aulaClasses.evento;
 
 public class EventoAcademico {
     String nomeEvento, localEvento;
