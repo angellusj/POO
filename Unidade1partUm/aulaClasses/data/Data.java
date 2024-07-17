@@ -1,4 +1,4 @@
-package aulaClasses.data;
+package Unidade1partUm.aulaClasses.data;
 
 class Data{
     int dia, mes, ano;
