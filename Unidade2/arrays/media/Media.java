@@ -1,4 +1,4 @@
-package Unidade2.media;
+package Unidade2.arrays.media;
 
 public class Media {
     public static void main(String[] args) {

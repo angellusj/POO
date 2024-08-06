@@ -1,4 +1,4 @@
-package Unidade2.trianguloPascal;
+package Unidade2.arrays.trianguloPascal;
 
 import java.util.Scanner;
 

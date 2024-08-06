@@ -1,3 +1,5 @@
+package Unidade2.arrays.dama;
+
 public class Dama {
     private char tabuleiro[][];
     private final static int NL = 8;
