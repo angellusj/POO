@@ -15,14 +15,17 @@ public class ExtratoBancario {
         if(saldoFinal + valor >= 0){
             saldoFinal += valor;
             transcoes.add(valor);
+            System.out.println("Operacao realizada.");
+        }else {
+            System.out.println("Saldo insuficiente.");
         }
     }
 
     public void visualizar(){
         System.out.println("===================");
-        for (Double d : transcoes){
-            System.out.println(d);
-        }
+        //for (Double d : transcoes){
+            //System.out.println(d);
+        //}
         for (int i = 0; i < transcoes.size(); i++){
             System.out.println(i + " " + transcoes.get(i));
         }
