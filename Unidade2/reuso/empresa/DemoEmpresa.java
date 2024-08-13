@@ -1,6 +1,7 @@
 package Unidade2.reuso.empresa;
 
 public class DemoEmpresa {
+    public static void main(String[] args) {
     Pessoa pessoa = new Pessoa("Mario", "40028922");
     System.out.println(pessoa);
 
@@ -9,4 +10,6 @@ public class DemoEmpresa {
 
     ChefeDepartamento chefe = new ChefeDepartamento("Marta", "40026877", 15.485, "Financeiro");
     System.out.println(chefe);
+    
+    }
 }

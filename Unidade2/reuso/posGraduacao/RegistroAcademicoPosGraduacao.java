@@ -1,7 +1,5 @@
 package Unidade2.reuso.posGraduacao;
 
-import Unidade2.reuso.RegistroAcademico;
-
 public class RegistroAcademicoPosGraduacao {
     private RegistroAcademico gradInfo;
     private String tituloTese;

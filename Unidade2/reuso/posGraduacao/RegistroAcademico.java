@@ -1,4 +1,4 @@
-package Unidade2.reuso;
+package Unidade2.reuso.posGraduacao;
 
 public class RegistroAcademico {
     private String nomeDoAluno;
