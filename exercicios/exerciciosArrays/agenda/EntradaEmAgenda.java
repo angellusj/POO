@@ -13,7 +13,7 @@ public class EntradaEmAgenda {
     }
 
     public void ehNoDia(int dia, int mes, int ano){
-        if (dia <= 31){
+        if (dia <= 31 && mes <= 12){
            
         }
     }
