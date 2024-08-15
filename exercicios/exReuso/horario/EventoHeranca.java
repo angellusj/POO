@@ -3,8 +3,8 @@ package exercicios.exReuso.horario;
 public class EventoHeranca extends DataHora{
     private String evento;
 
-    public EventoHeranca(String data, String hora, String evento){
-        super(data, hora);
+    public EventoHeranca(int dia, int mes, int ano, int hora, int minuto, String evento){
+        super(dia, mes, ano, hora, minuto);
         this.evento = evento;
     }
 
@@ -13,6 +13,6 @@ public class EventoHeranca extends DataHora{
     }
 
     public String toString(){
-        return super.toString() + "Evento: " + "\n";
+        return super.toString() + "Evento: " + evento + "\n";
     }
 }

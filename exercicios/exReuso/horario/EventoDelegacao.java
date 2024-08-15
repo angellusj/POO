@@ -14,6 +14,6 @@ public class EventoDelegacao {
     }
 
     public String toString(){
-        return data.toString() + "Evento: " + "\n";
+        return data.toString() + "Evento: " + evento + "\n";
     }
 }

@@ -12,6 +12,6 @@ public class RegistroAcademicoPosGraduacao {
     }
 
     public String toString(){
-        return "Tese: " + tituloTese + "; Orientador: " + orientador;
+        return gradInfo.toString() + "Tese: " + tituloTese + "; Orientador: " + orientador;
     }
 }
