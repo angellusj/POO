@@ -9,9 +9,15 @@ public class Funcionario {
         this.salario = salario;
     }
 
-    public void aumentarSalario(){
-        double aumento;
-        
+    public double aumentarSalario(double aumento){
+        this.salario += aumento;
+        return aumento;
+    }
+
+    public double ganhoAnual(){
+        double salarioAnual = salario*12;
+        double decimoTerceiro = salario;
+        return salario + decimoTerceiro;
     }
 
     public String getNome(){
@@ -23,6 +29,6 @@ public class Funcionario {
     }
 
     public String toString(){
-        return "Nome: " + nome + "\n" + "Salario: " + salario + "\n\n";
+        return "Nome: " + nome + "\n" + "Salario mensal: " + salario + "\n\n";
     }
 }
