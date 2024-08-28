@@ -13,5 +13,14 @@ public class Conjunto {
         System.out.println(cores);
         cores.add("Amarelo");
         System.out.println(cores);
+        cores.add("Azul");
+        System.out.println(cores);
+        cores.add("Roxo");
+        System.out.println(cores);
+
+        System.out.println("Antes da cor preto: " + cores.headSet("Preto"));
+        System.out.println("A partir da cor preto: " + cores.tailSet("Preto"));
+        System.out.println("1a cor: " + cores.first());
+        System.out.println("Ultima cor: " + cores.last());
     }
 }
