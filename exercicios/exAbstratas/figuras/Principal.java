@@ -6,12 +6,10 @@ public class Principal {
         Quadrado qua = new Quadrado();
         Triangulo tri = new Triangulo();
 
-        imprimirDescricao(cir);
-        imprimirDescricao(qua);
-        imprimirDescricao(tri);
-    }
-
-    public static void imprimirDescricao(FiguraGeomatrica figura){
-        System.out.println("Descricao: " + figura.descricao());
+        cir.descricao();
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------");
+        qua.descricao();
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------");
+        tri.descricao();
     }
 }

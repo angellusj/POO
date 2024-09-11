@@ -2,5 +2,5 @@ package exercicios.exAbstratas.figuras;
 
 public abstract class FiguraGeomatrica {
     
-    public abstract String descricao();
+    public abstract void descricao();
 }
