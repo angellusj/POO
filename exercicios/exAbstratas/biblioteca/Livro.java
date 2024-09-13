@@ -54,6 +54,6 @@ public class Livro {
     }
 
     public String toString(){
-        return "Titulo: " + qualTitulo() + "\n" + "Autor: " + qualAutor() + "\n" + "Numero de paginas: " + numeroDePaginas + "\n" + "Ano da edicao: " + anoDeEdicao;
+        return "Titulo: " + qualTitulo() + "\n" + "Autor: " + qualAutor() + "\n" + "Numero de paginas: " + numeroDePaginas + "\n" + "Ano da edicao: " + anoDeEdicao + "\n";
     }
 }

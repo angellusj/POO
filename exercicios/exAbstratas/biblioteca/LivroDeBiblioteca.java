@@ -27,7 +27,7 @@ public class LivroDeBiblioteca extends Livro implements ItemDeBiblioteca{
     }
 
     public String localizacao(){
-        return bloco + ", " + numeroDePrateleira;
+        return "Bloco de " + bloco + ", " + "prateleira " + numeroDePrateleira + "\n";
     }
 
     public String descricao(){
@@ -37,7 +37,7 @@ public class LivroDeBiblioteca extends Livro implements ItemDeBiblioteca{
     @Override
     public String toString() {
         String res = super.toString();
-        res += emprestado ? "Emprestado " : "Na estante \n";
+        res += emprestado ? "Emprestado\n" : "Na estante\n";
         res += localizacao();
 
         return res;
