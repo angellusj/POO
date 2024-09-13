@@ -39,6 +39,7 @@ public class LivroDeBiblioteca extends Livro implements ItemDeBiblioteca{
         String res = super.toString();
         res += emprestado ? "Emprestado\n" : "Na estante\n";
         res += localizacao();
+        res += "Descricao do livro: " + descricao + "\n";
 
         return res;
     }
