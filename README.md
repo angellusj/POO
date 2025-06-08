@@ -1,6 +1,4 @@
 # POO
 
-## Questões dos exercicios
-
-Questão 43 - Classes abstratas
+### Repositório destinado aos exercícios da matéria de Programação Orientada à Objetos.
 
